@@ -17,12 +17,7 @@
     box-sizing: border-box;
 }
 
-html {
-    box-sizing: border-box;
-}
-
 body {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: var(--Grey-900);
@@ -130,6 +125,7 @@ ul li{
 ul li a{
     padding: .75rem;
     width: 100%;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 ul li a:hover{
