@@ -118,11 +118,21 @@ article ul{
 }
 
 ul li{
-    padding: .75rem;
     background-color: var(--Grey-700);
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     border-radius: .5rem;
+    overflow: hidden;
+}
+
+ul li a{
+    padding: .75rem;
+    width: 100%;
+}
+
+ul li a:hover{
+    background-color: var(--Green);
+    color: var(--Grey-900);
 }
